@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* header section style */
+header {
+
+    color: #1e74dd;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #1e74dd;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+/* header section style */
+.hero {
+    background-color: #1e74dd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   padding: 50px 20px;
+   margin-bottom: 5%;
+   
+}
+
+.hero-img img {
+    width: 500px;  
+    height: 600px;  
+}
+.hero-content h1{
+    width: 65%;
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.hero-content h1 span{
+    color: orange;
+}
+.hero-content h2{
+    color: white;
+    padding-bottom: 15px;
+
+}
+.hero-content p{
+    color: antiquewhite;
+}
+
+
+.content {
+    padding: 20px;
+    
+}
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center; 
+}
+
+.about-content, .about-img {
+    flex: 1;  
+    padding: 20px; 
+}
+.about-content h2{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.about-content p{
+    font-family: sans-serif;
+    line-height: 2;
+}
+
+.about-img img {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+}
+
+/* header section style */
+footer {
+    background-color: #1e74dd;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+   
+    bottom: 0;
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"], input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #1e74dd;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1e74dd;
+}
+
+.talk{
+    background-color: orange;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.talk h1{
+    font-size: 2rem;
+    padding: 10px;
+    color: #1e74dd;
+    font-weight: bold;
+}
+
+
+#education {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    height: 500px;
+    padding-top: 60px;
+}
+
+#education h2 {
+    color: #1e74dd; 
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.school-description, .university-description {
+    color: #666; 
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+.school-description::before, .university-description::before {
+    content: "📘 "; 
+}
+
+#education p:last-child {
+    margin-bottom: 0; 
+}
